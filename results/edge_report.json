@@ -1,0 +1,1941 @@
+{
+ "cases": 1426456,
+ "tolerance": {
+  "f64": [
+   1e-09,
+   1e-05
+  ],
+  "f32": [
+   0.003,
+   Infinity
+  ]
+ },
+ "summary": {
+  "f64/threshold": {
+   "pass": 597390,
+   "intentional_zuoik": 2610,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 9.678535020385566e-11
+  },
+  "f64/long_n": {
+   "pass": 4128,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 5.721466683849383e-13
+  },
+  "f64/negative_nu": {
+   "pass": 6296,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 3.899676360803254e-13
+  },
+  "f64/zuoik": {
+   "pass": 16128,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 4.572428647234118e-13
+  },
+  "f64/series": {
+   "pass": 57024,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 3.4130900396724144e-13
+  },
+  "f64/zbesy": {
+   "pass": 812,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 88,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 5.01552253895363e-13
+  },
+  "f64/seq_into": {
+   "pass": 27216,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 9.377869059982132e-13
+  },
+  "f64/airy": {
+   "pass": 9984,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 3.320490387718893e-07
+  },
+  "f32/threshold": {
+   "pass": 598840,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 188,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 2,
+   "intentional_axis": 2,
+   "axis_noise": 8,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 0.002844191105171105
+  },
+  "f32/long_n": {
+   "pass": 4127,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 1,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 6.294563128386806e-05
+  },
+  "f32/negative_nu": {
+   "pass": 4520,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 2.5834287336583794e-05
+  },
+  "f32/zuoik": {
+   "pass": 17448,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 24,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 3.341023022926722e-05
+  },
+  "f32/series": {
+   "pass": 57024,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 3.843178580165183e-05
+  },
+  "f32/zbesy": {
+   "pass": 798,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 102,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 0.002680123759739362
+  },
+  "f32/seq_into": {
+   "pass": 12041,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 28,
+   "intentional_chunk": 2,
+   "call_dependent": 15,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 10,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 0.0002871806357864635
+  },
+  "f32/airy": {
+   "pass": 9600,
+   "intentional_zuoik": 0,
+   "intentional_zbesy": 0,
+   "intentional_chunk": 0,
+   "call_dependent": 0,
+   "intentional_real": 0,
+   "intentional_axis": 0,
+   "axis_noise": 0,
+   "mismatch": 0,
+   "single_vs_seq": 0,
+   "max_rel_passing": 0.4948079406779704
+  }
+ },
+ "examples": {
+  "intentional_zuoik": [
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     -3154.1396484375
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     -2891.294921875
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     -2628.4501953125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     -2365.60546875
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     -1839.9150390625
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     -1577.0703125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     1577.0703125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     1839.9150390625
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     2365.60546875
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     2628.4501953125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     2891.294921875
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -694.4072265625,
+     3154.1396484375
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -3154.1396484375
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -2891.294921875
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -2628.4501953125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -2365.60546875
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -2102.759765625
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -1839.9150390625
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -1577.0703125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "threshold",
+     "K",
+     1,
+     4,
+     0,
+     -691.6552734375,
+     -1314.224609375
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   }
+  ],
+  "intentional_zbesy": [
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     575,
+     -50.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     575,
+     -50.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     575,
+     0.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     575,
+     0.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     575,
+     50.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     575,
+     50.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     3,
+     575,
+     -50.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     3,
+     575,
+     -50.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     3,
+     575,
+     0.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     3,
+     575,
+     0.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     3,
+     575,
+     50.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     3,
+     575,
+     50.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     -300.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     -300.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     300.0,
+     360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     300.0,
+     -360.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     -300.0,
+     400.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     -300.0,
+     -400.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     -50.0,
+     400.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f64",
+     "zbesy",
+     "Y",
+     2,
+     1,
+     800,
+     -50.0,
+     -400.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   }
+  ],
+  "axis_noise": [
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "J",
+     2,
+     4,
+     150,
+     -76.375,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "J",
+     2,
+     4,
+     150,
+     -72.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     1
+    ],
+    "fortran": [
+     0,
+     4
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "J",
+     2,
+     4,
+     150,
+     72.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     1
+    ],
+    "fortran": [
+     0,
+     4
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "J",
+     2,
+     4,
+     150,
+     76.375,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "I",
+     2,
+     4,
+     150,
+     0.0,
+     -76.375
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "I",
+     2,
+     4,
+     150,
+     0.0,
+     -72.5
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     1
+    ],
+    "fortran": [
+     0,
+     4
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "I",
+     2,
+     4,
+     150,
+     0.0,
+     72.5
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     1
+    ],
+    "fortran": [
+     0,
+     4
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "I",
+     2,
+     4,
+     150,
+     0.0,
+     76.375
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "long_n",
+     "J",
+     2,
+     48,
+     23.5,
+     20.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     2
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     70,
+     -21.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     1
+    ],
+    "fortran": [
+     0,
+     2
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     70,
+     -19.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     2
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     70,
+     19.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     2
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     70,
+     21.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     1
+    ],
+    "fortran": [
+     0,
+     2
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     1,
+     80,
+     -26.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     1
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     1,
+     80,
+     -24.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     1
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     1,
+     80,
+     24.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     1
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     1,
+     80,
+     26.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     1
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     80,
+     -26.5,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     80,
+     -24.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     2
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "zuoik",
+     "J",
+     2,
+     3,
+     80,
+     24.0,
+     0.0
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     2
+    ],
+    "fortran": [
+     0,
+     3
+    ]
+   }
+  ],
+  "intentional_axis": [
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "Y",
+     1,
+     1,
+     33.5,
+     -51.5,
+     0.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "Y",
+     2,
+     1,
+     33.5,
+     -51.5,
+     0.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   }
+  ],
+  "intentional_real": [
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "Y",
+     1,
+     1,
+     33.5,
+     51.5,
+     0.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "threshold",
+     "Y",
+     2,
+     1,
+     33.5,
+     51.5,
+     0.0
+    ],
+    "kind": "value",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   }
+  ],
+  "call_dependent": [
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "J",
+     1,
+     100,
+     -40.5,
+     1.125,
+     -6.375
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     15
+    ],
+    "fortran": [
+     0,
+     14
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "J",
+     1,
+     100,
+     -40.5,
+     1.125,
+     6.375
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     15
+    ],
+    "fortran": [
+     0,
+     14
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "J",
+     2,
+     100,
+     -12.25,
+     -18.75,
+     -6.875
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     18
+    ],
+    "fortran": [
+     0,
+     17
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "J",
+     2,
+     100,
+     -12.25,
+     -18.75,
+     6.875
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     18
+    ],
+    "fortran": [
+     0,
+     17
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     1,
+     100,
+     -40.75,
+     5.0,
+     -4.125
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     14
+    ],
+    "fortran": [
+     0,
+     13
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     1,
+     100,
+     -40.75,
+     5.0,
+     4.125
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     14
+    ],
+    "fortran": [
+     0,
+     13
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     1,
+     65,
+     -70,
+     -79.875,
+     -29.125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     1,
+     65,
+     -70,
+     -79.875,
+     29.125
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     2,
+     100,
+     -12.25,
+     -10.0,
+     17.375
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     17
+    ],
+    "fortran": [
+     0,
+     18
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     2,
+     100,
+     -12.25,
+     26.0,
+     -21.875
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     5
+    ],
+    "fortran": [
+     0,
+     4
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "I",
+     2,
+     100,
+     -12.25,
+     26.0,
+     21.875
+    ],
+    "kind": "nz",
+    "rust": [
+     0,
+     5
+    ],
+    "fortran": [
+     0,
+     4
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "H1",
+     2,
+     100,
+     -70,
+     15.375,
+     -12.875
+    ],
+    "kind": "status",
+    "rust": [
+     2,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "H1",
+     2,
+     100,
+     -70,
+     15.375,
+     12.875
+    ],
+    "kind": "status",
+    "rust": [
+     2,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "H2",
+     2,
+     100,
+     -70,
+     15.375,
+     -12.875
+    ],
+    "kind": "status",
+    "rust": [
+     2,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "H2",
+     2,
+     100,
+     -70,
+     15.375,
+     12.875
+    ],
+    "kind": "status",
+    "rust": [
+     2,
+     0
+    ],
+    "fortran": [
+     0,
+     0
+    ]
+   }
+  ],
+  "intentional_chunk": [
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "Y",
+     1,
+     100,
+     0.4,
+     34.0,
+     0.0
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   },
+   {
+    "case": [
+     "f32",
+     "seq_into",
+     "Y",
+     2,
+     100,
+     0.4,
+     34.0,
+     0.0
+    ],
+    "kind": "status",
+    "rust": [
+     0,
+     0
+    ],
+    "fortran": [
+     2,
+     0
+    ]
+   }
+  ]
+ },
+ "failures": 0
+}

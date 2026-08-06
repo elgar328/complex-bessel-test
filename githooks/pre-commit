@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "=== pre-commit: cargo fmt ==="
+cargo fmt --check
+
+echo "=== pre-commit: cargo clippy ==="
+cargo clippy -- -D warnings
+
+# ruff is version-pinned: `--with ruff` (unpinned) pulls the latest release,
+# whose active rule set has changed across versions and broken commits.
+echo "=== pre-commit: ruff check ==="
+uv run --project python --with 'ruff==0.16.1' ruff check python/
+
+echo "=== pre-commit: ruff format ==="
+uv run --project python --with 'ruff==0.16.1' ruff format --check python/

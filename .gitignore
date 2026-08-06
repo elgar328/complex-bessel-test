@@ -1,0 +1,13 @@
+/target
+fortran/.build/
+fortran/compute_grid
+fortran/bench_fortran
+fortran/edge64
+fortran/edge64_zri
+fortran/edge32
+python/.venv/
+__pycache__/
+*.pyc
+# f32 raw results: summarized in results/comparison.json (`f32` key)
+results/rust_f32_results.json
+results/fortran_f32_results.json
