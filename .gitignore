@@ -1,0 +1,7 @@
+/target
+fortran/.build/
+fortran/compute_grid
+fortran/bench_fortran
+python/.venv/
+__pycache__/
+*.pyc
